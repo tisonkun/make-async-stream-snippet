@@ -1,0 +1,12 @@
+[package]
+name = "make-async-stream"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures-core = { version = "0.3.31", default-features = false }
+pin-project = { version = "1.1.7" }
+
+[dev-dependencies]
+futures = { version = "0.3.31" }
+tokio = { version = "1.42.0", features = ["full"] }
